@@ -20,3 +20,18 @@ Fraudulent card transactions pose significant financial and reputational risk. C
 - Recommendation: Deploy with human–review for borderline cases; retrain regularly
 
 ## Repo Structure  
+```
+fraud-detection-cost-optimised-model/
+├── reports/
+│ ├── Fraud_ML_Case_Study_Report.pdf
+│ └── fraud_one_pager.pdf
+├── notebooks/
+│ └── 01_data_loading_and_eda.ipynb
+├── src/
+│ ├── data_prep.py
+│ ├── train.py
+│ └── evaluate.py
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
